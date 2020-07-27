@@ -1,6 +1,12 @@
-import React from "react"
+import React from 'react'
 import "./layout.css"
 
-export default function Layout({ children }) {
-  return <div>{children}</div>
+const Layout = (props) => {
+  return (
+    <div>
+      {props.children}
+    </div>
+  )
 }
+
+export default Layout
