@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import '../styles/index.css'
 
 export default function HomePage() {
   return (
