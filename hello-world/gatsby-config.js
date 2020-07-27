@@ -1,7 +1,6 @@
 
 module.exports = {
   plugins: [
-    `gatsby-plugin-emotion`
     {
       resolve: `gatsby-plugin-sass`,
       options: {
@@ -11,6 +10,7 @@ module.exports = {
         ],
       },
     },
+  'gatsby-plugin-postcss'
   ],
 }
 
