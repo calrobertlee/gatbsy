@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import { Link } from 'gatsby'
 
 const Heading = styled.h1`
-    ${tw`text-2xl text-gray-500 uppercase mt-5`}
+    ${tw`text-2xl font-bold text-gray-800 capitalize mt-8`}
 `
 const Img = styled.img`
     ${tw`mt-10 rounded-md shadow-xl`}
@@ -15,7 +15,7 @@ const Img = styled.img`
 
 const ThirdPage = () => (
     <Layout>
-      <Heading>Hi from the second page</Heading>
+      <Heading>Hi from the third page</Heading>
       <Img src="https://source.unsplash.com/random/400x200" alt="" />
       <p>Welcome to page 2</p>
       <Link to="/">Go back to the homepage</Link>
